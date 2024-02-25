@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.h1{
+
+background: pink;
+width: 40%;
+height: 40%;
+
+}
+
+.ladoA, .ladoB {
+    flex: 1;
+    display: flex;
+    
+}
+
+.ladoA {
+    background-color: plum;
+    text-align: right;
+    max-width: 70%;
+    height: 100%;
+}
+
+.ladoB {
+    background-color: purple;
+    text-align: left;
+    max-width: 30%;
+    height: 100%;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #BBBDBF;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -40px;
+    width: 100%;
+    height:10% ;
+    display: flex;
+    flex-direction:column
+    
+    
+  }
+
+  .meninas{
+
+ width: 40%;
+ height: 40%;
+
+  }
