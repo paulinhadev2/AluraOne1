@@ -4,15 +4,26 @@ body {
     margin: 0;
     overflow: hidden;
     width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
-.h1{
+.logica {
+    background: pink;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20%;
+}
 
-background: pink;
-width: 40%;
-height: 40%;
-
+.logica input {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 .ladoA, .ladoB {
@@ -22,22 +33,29 @@ height: 40%;
 }
 
 .ladoA {
-    background-color: plum;
+    background: url("img/images.png");
     text-align: right;
     max-width: 70%;
     height: 100%;
+  
 }
 
 .ladoB {
-    background-color: purple;
+    background: plum;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
     text-align: left;
     max-width: 30%;
     height: 100%;
+    display: flex;
+     justify-content: center;
+
 }
 
 footer {
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
     background-color: #BBBDBF;
     position: absolute;
     bottom: 0;
@@ -45,14 +63,29 @@ footer {
     width: 100%;
     height:10% ;
     display: flex;
-    flex-direction:column
+    justify-content: center;
     
     
-  }
 
-  .meninas{
+}
+    
+    .texto{
 
- width: 40%;
- height: 40%;
+   
+     
+        font-size: 20px;
+        color: blueviolet;
+        display: flex;
+        justify-content: center;
+        
 
-  }
+
+    }
+    
+      
+    
+    
+  
+
+  
+  
